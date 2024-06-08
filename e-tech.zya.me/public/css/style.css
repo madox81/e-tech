@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Noto+Serif|Tangerine');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+  background-image: linear-gradient(to bottom right, #D1C4E9, #283593);
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+a {
+	text-decoration: none;
+}
+
+.lead {
+    color: white;
+    font-size: 2.2rem;
+}
+
+
+
+.popover{
+    width: 100%;
+    max-width: 650px;
+}
+
+.ppopover{
+    width: 100%;
+    max-width: 300px;
+}
+
+.nav-item  {
+	width: 135px;
+    padding: 0;
+}
+
+.navbar-brand h1 {
+	color:white;
+	font-size: 5em;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-family: 'Tangerine', cursive;
+}
+
+
+.drop-shadow {
+    text-shadow: 2px 2px 5px #333;
+}
+
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.201);
+}
+
+.btn-outline-warning:hover {
+    background-color: rgba(255, 193, 7, 0.201);
+    color: rgba(255, 255, 255, 0.201) ;
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+section  {
+    background-image: url('../images/banners/devices.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 50px;
+    box-shadow: 0 0 8px 8px lightgray; inset;
+}
